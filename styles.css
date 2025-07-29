@@ -210,35 +210,10 @@ nav ul li a:hover {
   }
 }
 @media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-  }
-
   .sidebar {
-    width: 100%;
-    padding: 2rem 1rem 1rem 1rem;
-    margin: 0;
-    box-sizing: border-box;
-    align-items: center;
-    text-align: center;
-  }
-
-  .main-content {
-    width: 100%;
-    padding: 1rem;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  .sidebar .section-title,
-  .sidebar .other-project-title,
-  .sidebar .profile-text {
-    color: inherit; /* This ensures it uses your locked dark mode color */
-  }
-
-  .socials {
-    justify-content: center;
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 1rem 0 !important;
   }
 }
