@@ -212,22 +212,27 @@ nav ul li a:hover {
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
+    padding: 0;
+    margin: 0;
   }
 
   .sidebar {
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
+    margin: 0;
+    box-sizing: border-box;
     align-items: center;
     text-align: center;
   }
 
   .main-content {
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 1rem;
+    margin: 0;
+    box-sizing: border-box;
   }
 
   .socials {
     justify-content: center;
   }
 }
-
