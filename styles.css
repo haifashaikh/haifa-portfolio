@@ -210,10 +210,34 @@ nav ul li a:hover {
   }
 }
 @media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
   .sidebar {
-    background: none !important;
+    width: 100%;
+    background: transparent !important;
     box-shadow: none !important;
     border: none !important;
-    padding: 1rem 0 !important;
+    padding: 1.5rem 1rem;
+    margin: 0;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 1.5rem 1rem;
+    margin: 0;
+  }
+
+  .socials {
+    justify-content: flex-start;
   }
 }
+
