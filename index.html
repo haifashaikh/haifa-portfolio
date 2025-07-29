@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shaikh Haifa Banu - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="centered">
+        <img src="C:\Users\eshah\Downloads\IMG_2908.jpg" alt="Profile Photo" class="profile-pic" />
+        <h1 class="name">Shaikh Haifa Banu</h1>
+        <p class="subtitle"> UI/UX Designer</p>
+        <nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#ml-projects">Other Technical Projects</a></li>
+  </ul>
+</nav>
+
+       <div class="socials">
+  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+  <a href="#"><i class="fab fa-instagram"></i></a>
+  <a href="mailto:your.eshahaifa100@gmail.com"><i class="fas fa-envelope"></i></a>
+</div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+     <section id="about" data-aos="fade-up">
+  <h2>About</h2> 
+  <p>
+          I’m currently in my final year pursuing a B.Tech in Computer Science and Engineering. With a strong interest in design and a passion for creating beautiful, user-centered interfaces, I specialize in UI/UX using tools like Figma. I enjoy transforming complex problems into simple, intuitive, and aesthetically pleasing experiences.
+        </p>
+        <p>
+          My academic background in technology helps me merge logic with creativity. I'm actively building design systems, working on student-led projects, and always exploring better ways to improve user interactions through thoughtful design.
+        </p>
+      </section>
+
+      <section id="projects" data-aos="fade-up">
+        <h2>Projects</h2>
+        <div class="project-card">
+          <h3>Responsive Food Delivery App</h3>
+          <p>
+            Designed a modern, responsive food delivery app in Figma with a clean UI, intuitive navigation, and adaptive layout for mobile and tablet devices. Focused on user-friendly food discovery and streamlined ordering experience.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Vietnam Travel Experience Website</h3>
+          <p>
+            Designed and developed a website to document my personal travel experience in Vietnam. The site features storytelling, photo galleries, and insights on local culture, food, and destinations. It was built to enhance user engagement through clean layout, responsive design, and smooth navigation.
+          </p>
+        </div>
+        <!-- Add more projects here -->
+      </section>
+      <section id="ml-projects" data-aos="fade-up">
+  <h2>Other Technical Projects</h2>
+
+  <div class="project-card">
+    <h3>Personality Prediction from CVs</h3>
+    <p>
+      Developed a machine learning system to predict personality traits from resumes using the Big Five model.
+      Extracted and analyzed features from CVs to assist in candidate evaluation, enhancing recruitment decision-making through intelligent profiling.
+    </p>
+  </div>
+  <div class="project-card">
+    <h3>Traffic Management Using YOLOv8</h3>
+    <p>
+      Built a predictive traffic monitoring model using YOLOv8 (You Only Look Once) object detection algorithm.
+      Designed to analyze real-time traffic video feeds and estimate congestion levels to aid in dynamic traffic light scheduling and smart city planning.
+    </p>
+  </div>
+</section>
+
+      <div class="resume-section" data-aos="fade-up">
+  <a href="resume.pdf" target="_blank" class="resume-link">View My Resume</a>
+</div>
+
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+  <script>
+    document.addEventListener("mousemove", (e) => {
+      const x = (e.clientX / window.innerWidth) * 100;
+      const y = (e.clientY / window.innerHeight) * 100;
+      document.body.style.setProperty("--x", `${x}%`);
+      document.body.style.setProperty("--y", `${y}%`);
+    });
+  </script>
+  <script>
+    document.addEventListener("mousemove", function(e) {
+      const x = (e.clientX / window.innerWidth) * 100;
+      const y = (e.clientY / window.innerHeight) * 100;
+      document.documentElement.style.setProperty('--x', `${x}%`);
+      document.documentElement.style.setProperty('--y', `${y}%`);
+    });
+  </script>
+</body>
+</html>
