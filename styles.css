@@ -232,6 +232,12 @@ nav ul li a:hover {
     box-sizing: border-box;
   }
 
+  .sidebar .section-title,
+  .sidebar .other-project-title,
+  .sidebar .profile-text {
+    color: inherit; /* This ensures it uses your locked dark mode color */
+  }
+
   .socials {
     justify-content: center;
   }
