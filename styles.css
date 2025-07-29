@@ -172,3 +172,40 @@ nav ul li a:hover {
 .resume-link:hover {
   color: #888;
 }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding: 2rem 1rem;
+    border-right: none;
+    border-bottom: 1px solid #333;
+    text-align: center;
+  }
+
+  .main-content {
+    padding: 1.5rem;
+    margin-left: 0;
+  }
+
+  .socials {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .project-card {
+    margin-bottom: 2rem;
+  }
+
+  .name {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}
